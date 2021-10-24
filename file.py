@@ -3,10 +3,10 @@ Subj:   Coding Dojo > Python Stack > Python > Fundamentals > Reconize Python
 By:     Virgilio D> Cabading Jr.    Created: October 24, 2021
 /////////////////////////////////////////////////////////"""
 
-num1 = 42                                                        # Variable decleration, primitive number data type           
-num2 = 2.3
-boolean = True
-string = 'Hello World'
+num1 = 42                                       # Variable declaration, number primitive data type, initialize           
+num2 = 2.3                                      # Variable declaration, number primitive data type, initialize
+boolean = True                                  # variable declaration, boolean primitivedata type, initialize
+string = 'Hello World'                          # variable declaration, string primitive data type, initialize
 pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives']
 person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}
 fruit = ('blueberry', 'strawberry', 'banana')
