@@ -8,10 +8,12 @@ num2 = 2.3                                      # Variable declaration, number p
 boolean = True                                  # variable declaration, boolean primitivedata type, initialize
 string = 'Hello World'                          # variable declaration, string primitive data type, initialize
 pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives']
+                                                # variable declaration, list composite data type, initialize
 person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}
-fruit = ('blueberry', 'strawberry', 'banana')
-print(type(fruit))
-print(pizza_toppings[1])
+                                                # variable declaration, dictionary composite data type, initialize
+fruit = ('blueberry', 'strawberry', 'banana')   # variable declaration, tuple composite data type, initialize
+print(type(fruit))                              # type method returns class type of argument, prints class tuple
+print(pizza_toppings[1])                        # access value of list composite data type
 pizza_toppings.append('Mushrooms')
 print(person['name'])
 person['name'] = 'George'
