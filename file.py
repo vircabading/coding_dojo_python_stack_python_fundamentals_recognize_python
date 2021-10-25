@@ -50,16 +50,16 @@ while(x < 5):                                   # while loop, start at 0, end at
 pizza_toppings.pop()                            # pop() removes and returns the last value from the list
 pizza_toppings.pop(1)                           # pop(index) removes and returns the value from the list at the given index
 
-print(person)
-person.pop('eye_color')
-print(person)
+print(person)                                   # prints a dictionary
+person.pop('eye_color')                         # pop('key') removes and returns the value of the element in the dictionary with the given key
+print(person)                                   # prints dictionary which no longer includes 'eye_color'
 
-for topping in pizza_toppings:
-    if topping == 'Pepperoni':
-        continue
+for topping in pizza_toppings:                  # for loop, start at 'Pepperoni", ends at cheese
+    if topping == 'Pepperoni':                  # if conditional
+        continue                                # continue skips the next three lines to the next incrementation of for loop
     print('After 1st if statement')
     if topping == 'Olives':
-        break
+        break                                   # break stops the for loop
 
 def print_hello_ten_times():
     for num in range(10):
