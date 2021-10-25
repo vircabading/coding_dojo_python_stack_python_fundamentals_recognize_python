@@ -85,11 +85,11 @@ print_hello_x_or_ten_times(4)                   # calls funtion with 4 as the va
 Bonus section
 """
 
-# print(num3)
+# print(num3)                                   # name error, num3 is not defined
 # num3 = 72
-# fruit[0] = 'cranberry'
-# print(person['favorite_team'])
-# print(pizza_toppings[7])
-#   print(boolean)
-# fruit.append('raspberry')
-# fruit.pop(1)
+# fruit[0] = 'cranberry'                        # error, tuple value cannot be changed
+# print(person['favorite_team'])                # error, key does not exist in dictionary
+# print(pizza_toppings[7])                      # index error, list index out of range
+#   print(boolean)                              # indentation error, unexpected indent
+# fruit.append('raspberry')                     # error cannot add value to tuple
+# fruit.pop(1)                                  # error cannot delete value from tuple
