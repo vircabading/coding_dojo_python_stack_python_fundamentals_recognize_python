@@ -61,24 +61,24 @@ for topping in pizza_toppings:                  # for loop, start at 'Pepperoni"
     if topping == 'Olives':
         break                                   # break stops the for loop
 
-def print_hello_ten_times():
-    for num in range(10):
+def print_hello_ten_times():                    # function declaration
+    for num in range(10):                       # for loop, start at 0, end at 10, increment by 1
         print('Hello')
 
-print_hello_ten_times()
+print_hello_ten_times()                         # execute function
 
-def print_hello_x_times(x):
-    for num in range(x):
+def print_hello_x_times(x):                     # function declaration with x as a parameter
+    for num in range(x):                        # for loop, start at 0. end at x value, increment by 1
         print('Hello')
 
-print_hello_x_times(4)
+print_hello_x_times(4)                          # execute function that prints hello four times
 
-def print_hello_x_or_ten_times(x = 10):
-    for num in range(x):
+def print_hello_x_or_ten_times(x = 10):         # function declaration with x as a parameter with a default value of 10 if no parameter is passed
+    for num in range(x):                        # for loop, start at 0, end at x value, increment by 1
         print('Hello')
 
-print_hello_x_or_ten_times()
-print_hello_x_or_ten_times(4)
+print_hello_x_or_ten_times()                    # calls function with x defaulting to 10 since no parameter is passed
+print_hello_x_or_ten_times(4)                   # calls funtion with 4 as the value of parameter x
 
 
 """
