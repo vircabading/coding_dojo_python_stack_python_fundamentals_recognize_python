@@ -14,11 +14,11 @@ person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': Fals
 fruit = ('blueberry', 'strawberry', 'banana')   # variable declaration, tuple composite data type, initialize
 print(type(fruit))                              # type method returns class type of argument, prints class tuple
 print(pizza_toppings[1])                        # access value of list composite data type
-pizza_toppings.append('Mushrooms')
-print(person['name'])
-person['name'] = 'George'
-person['eye_color'] = 'blue'
-print(fruit[2])
+pizza_toppings.append('Mushrooms')              # append method adds an item at the end of a list
+print(person['name'])                           # access value of dictionary composite date type using a key
+person['name'] = 'George'                       # change value of dictionary composite data type using a key
+person['eye_color'] = 'blue'                    # initialize value of dictionary composite data type using a key
+print(fruit[2])                                 # access value of tuple composite data type using an index
 
 if num1 > 45:
     print("It's greater")
