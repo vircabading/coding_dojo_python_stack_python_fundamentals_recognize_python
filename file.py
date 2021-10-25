@@ -1,5 +1,5 @@
 """//////////////////////////////////////////////////////       # Multi line comment
-Subj:   Coding Dojo > Python Stack > Python > Fundamentals > Reconize Python
+Subj:   Coding Dojo > Python Stack > Python > Fundamentals > Recognize Python
 By:     Virgilio D> Cabading Jr.    Created: October 24, 2021
 /////////////////////////////////////////////////////////"""
 
@@ -41,14 +41,14 @@ for x in range(2,5):                            # for loop, start at 2, stop at 
     print(x)                                    # prints a number
 for x in range(2,10,3):                         # for loop, start at 2, stop at 10, increment by 3
     print(x)                                    # prints a number
-    
-x = 0
-while(x < 5):
-    print(x)
-    x += 1
 
-pizza_toppings.pop()
-pizza_toppings.pop(1)
+x = 0                                           # number primitive date type initialize 
+while(x < 5):                                   # while loop, start at 0, end at 5
+    print(x)
+    x += 1                                      # while loop increment by 1
+
+pizza_toppings.pop()                            # pop() removes and returns the last value from the list
+pizza_toppings.pop(1)                           # pop(index) removes and returns the value from the list at the given index
 
 print(person)
 person.pop('eye_color')
